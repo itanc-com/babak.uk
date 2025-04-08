@@ -1,0 +1,33 @@
+# OS-specific junk
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# ignore files for JetBrains IDEs
+.idea 
+*.iml 
+
+#Node Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Logs
+*.log
+
+# Dependency directories
+/.hugo_build/
+
+# VS Code settings (optional)
+.vscode/
+
+# Netlify deploy folder (optional, if you generate it manually)
+.netlify/
+
+# Hugo cache
+hugo_stats.json
+
+# Backup files
+*~
